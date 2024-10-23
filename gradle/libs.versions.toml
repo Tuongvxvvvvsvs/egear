@@ -1,0 +1,33 @@
+[versions]
+agp = "8.3.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version = "2.9.0" }
+retrofitConverterGson = { group = "com.squareup.retrofit2", name = "converter-gson", version = "2.9.0" }
+room = { group = "androidx.room", name = "room-runtime", version = "2.6.1" }
+roomCompiler = { group = "androidx.room", name = "room-compiler", version = "2.6.1" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version = "4.12.0" }
+glideCompiler = { group = "com.github.bumptech.glide", name = "compiler", version = "4.12.0" }
+webkit = { group = "androidx.webkit", name = "webkit", version = "1.4.0" }
+playServicesMaps = { group = "com.google.android.gms", name = "play-services-maps", version = "17.0.0" }
+playServicesLocation = { group = "com.google.android.gms", name = "play-services-location", version = "18.0.0" }
+androidMapsUtils = { group = "com.google.maps.android", name = "android-maps-utils", version = "2.2.0" }
+volley = { group = "com.android.volley", name = "volley", version = "1.2.0" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
